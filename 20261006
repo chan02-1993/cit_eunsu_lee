@@ -1,0 +1,8 @@
+height = 140
+guardian = True
+if height >= 140:
+    print("ride")
+elif guardian:
+    print("ride")
+else:
+    print("no")
