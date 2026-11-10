@@ -1,0 +1,53 @@
+"codes = [""A1"", ""C3"", ""B2"", ""q""] 
+coupon = set(codes)
+if len(coupon) != len(codes):
+    print(""dup"")
+else:
+    print(""unique"")
+      "
+"me= {""액션"", ""SF"", ""스릴러"", ""코미디""}
+you  = {""로맨스"", ""SF"", ""코미디"", ""다큐""}
+print(me & you)
+print(me - you)"
+"path = [(0,0), (1,0), (1,0), (2,1), (0,0), (2,1)]
+dipath = set(path)
+print(len(dipath))
+      "
+"log = [""A"", ""B"", ""A"", ""C"", ""A"", ""B"", ""D""]
+user = set(log)
+print(len(log), len(user))"
+"class_a = {""민수"", ""영희"", ""철수"", ""지현"", ""수빈""}
+class_b = {""영희"", ""수빈"", ""동현"", ""지현"", ""예린""}
+ 
+print(class_a & class_b)
+print(class_a - class_b)
+print(class_a | class_b, len(class_a | class_b) )
+print(class_a ^ class_b)"
+"banned = {""spam"", ""ad"", ""bot""}
+word = ""add""
+if word in banned:
+    print(""block"")
+else:
+    print(""pass"")
+"
+"members = {""철수"", ""영희"", ""민수"", ""지현""}
+name = ""철""
+if name in members:
+    print(""yes"")
+else:
+    print(""no"")"
+"a = [1, 2, 3, 4, 5]
+b = [4, 5, 6, 7, 8]
+aa = set(a)
+bb = set(b)
+ab = aa|bb
+print(len(ab))
+"
+"s = set(""banana"")
+print(s, len(s))"
+"data = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+s = set(data)
+print(len(data)- len(s))
+"
+"data = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+s = set(data)"
