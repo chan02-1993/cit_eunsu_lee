@@ -1,0 +1,53 @@
+"def diff(a,b):
+    return(a-b)
+d = diff(10, 3)
+print(d)"
+"def rec(ver, hor):
+     print(ver*hor)
+
+rec(4,3)
+
+"
+"def pi(r):
+     print(r*2*3.14)
+
+pi(5)"
+"def star():
+    print(""!!!"")
+
+star()
+star()
+star()"
+"jan = {""사과"": 10, ""배"": 5}
+feb = {""배"": 3, ""감"": 7}
+
+
+for x in jan:
+    if x in feb:
+        feb[x] += jan[x]
+    else:
+        feb[x] = jan[x]
+print(feb)"
+"sales = [
+(""월"", 12000), (""화"", 8000), (""월"", 5000),
+(""수"", 20000), (""화"", 15000), (""월"", 3000)
+]
+money = dict()
+
+for x in range (len(sales)):
+    if sales[x][0] in money:
+        money[sales[x][0]] += sales[x][1]
+    else:
+        money[sales[x][0]] = sales[x][1]
+print(money)"
+"scores = {""철수"": 95, ""영희"": 82, ""민수"": 68, ""지현"": 74, ""수빈"": 90}
+grade = dict()
+for x in scores:
+    if scores[x] >= 90:
+        grade[x] = ""A""
+    elif scores[x] >= 70:
+        grade[x] = ""B""
+    else:
+        grade[x] = ""C""
+        
+print(grade)"
