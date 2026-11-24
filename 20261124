@@ -1,0 +1,37 @@
+"
+
+def reverse_print(s):
+    if s == """":
+        return
+    print(s[len(s)-1])
+    reverse_print(s[:len(s)-1])
+
+reverse_print(""abc"")"
+"def print_chars(s):
+    if s == """":
+        return
+    print(s[0])
+    print_chars(s[1:])
+
+
+print_chars(""abc"")"
+"def down_up(n):
+    if n == 0:
+        return
+    print(""내려감"",n)
+    down_up(n-1)
+    print(""올라감"", n)
+
+down_up(9)"
+"def count_up(n):
+    if n == 0:
+        return
+    count_up(n-1)
+    print(n)
+count_up(8)"
+"def by_two(n):
+    if n <= 0:
+        return
+    print(n)
+    by_two(n-2)
+by_two(9)"
